@@ -40,7 +40,7 @@ resource "aws_instance" "myec2" {
   provider = aws.region02
 
   ami           = data.aws_ami.myami.id
-  instance_type = "t2.large"
+  instance_type = "t2.micro"
 
 
 
